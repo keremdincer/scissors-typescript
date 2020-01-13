@@ -1,0 +1,12 @@
+{
+  "type": "mssql",
+  "host": "testdb",
+  "port": 1433,
+  "username": "test-user",
+  "password": "testDevUser111",
+  "database": "UrlShortener",
+  "synchronize": true,
+  "entities": [
+    "src/**/*.entity.ts"
+  ]
+}
